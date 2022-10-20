@@ -67,3 +67,8 @@ _deps
 
 # Clangd
 .cache/
+
+# vc project
+*.vcxproj
+*.vcxproj.filters
+*.sln
