@@ -1,0 +1,3 @@
+// the configured options and settings for BaseStartPoint
+#define BaseStartPoint_VERSION_MAJOR @BaseStartPoint_VERSION_MAJOR@
+#define BaseStartPoint_VERSION_MINOR @BaseStartPoint_VERSION_MINOR@

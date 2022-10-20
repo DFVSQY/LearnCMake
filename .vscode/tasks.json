@@ -1,0 +1,29 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Step1_Generate",
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"-B",
+				"${workspaceFolder}/Step1_BaseStartPoint/build",
+				"-S",
+				"${workspaceFolder}/Step1_BaseStartPoint"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Step1_Build",
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"--build",
+				"${workspaceFolder}/Step1_BaseStartPoint/build"
+			],
+			"problemMatcher": []
+		}
+	]
+}
