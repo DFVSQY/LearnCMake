@@ -1,3 +1,6 @@
 // the configured options and settings for BaseStartPoint
+// <PROJECT-NAME>_VERSION_MAJOR
+// <PROJECT-NAME>_VERSION_MINOR
+
 #define BaseStartPoint_VERSION_MAJOR @BaseStartPoint_VERSION_MAJOR@
 #define BaseStartPoint_VERSION_MINOR @BaseStartPoint_VERSION_MINOR@
