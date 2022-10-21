@@ -24,6 +24,28 @@
 				"${workspaceFolder}/Step1_BaseStartPoint/build"
 			],
 			"problemMatcher": []
-		}
+		},
+		{
+			"label": "Step2_Generate",
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"-B",
+				"${workspaceFolder}/Step2_AddALibrary/build",
+				"-S",
+				"${workspaceFolder}/Step2_AddALibrary"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Step2_Build",
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"--build",
+				"${workspaceFolder}/Step2_AddALibrary/build"
+			],
+			"problemMatcher": []
+		},
 	]
 }
