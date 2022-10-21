@@ -8,7 +8,7 @@ cmake_minimum_required(VERSION 3.15)
 project(BaseStartPoint VERSION 1.0)
 
 # 使用C11标准
-# cmake的一些特殊变量使用CMAKE_前缀，自定义的前缀避免使用类似命名
+# cmake的一些特殊变量使用CMAKE_前缀，自定义的变量命名避免使用类似前缀
 set(CMAKE_C_STANDARD 11)
 
 # 强制要求使用指定的C11标准
