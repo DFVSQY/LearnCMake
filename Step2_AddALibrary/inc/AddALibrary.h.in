@@ -1,0 +1,3 @@
+//  When configure_file is called for the file, 
+// #cmakedefine USE_MYMATH is replaced by: #define USE_MYMATH
+#cmakedefine USE_MYMATH
