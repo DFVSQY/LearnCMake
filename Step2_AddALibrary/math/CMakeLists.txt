@@ -14,4 +14,4 @@ target_include_directories(mymath PUBLIC includes)
 # The named <target> must have been created by a command such as add_executable() or add_library() 
 # and must not be an ALIAS target.
 # MSVC工具链才需要这个宏定义
-target_compile_definitions(mymath PUBLIC MYMATH_EXPORTS)
+target_compile_definitions(mymath PRIVATE MYMATH_EXPORTS)
