@@ -47,5 +47,27 @@
 			],
 			"problemMatcher": []
 		},
+		{
+			"label": "Step3_Generate",
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"-B",
+				"${workspaceFolder}/Step3_AddUsageRequirementsForALibrary/build",
+				"-S",
+				"${workspaceFolder}/Step3_AddUsageRequirementsForALibrary"
+			],
+			"problemMatcher": []
+		},
+		{
+			"label": "Step3_Build",
+			"type": "shell",
+			"command": "cmake",
+			"args": [
+				"--build",
+				"${workspaceFolder}/Step3_AddUsageRequirementsForALibrary/build"
+			],
+			"problemMatcher": []
+		},
 	]
 }
