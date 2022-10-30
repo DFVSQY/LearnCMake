@@ -8,8 +8,6 @@ project(AddGeneratorExpressions VERSION 1.0)
 set(BUILD_SHARED_LIBS ON)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
-add_compile_options(-W3 -WX)
-
 # 设置gcc和msvc样式编译器的变量
 # $<COMPILE_LANG_AND_ID:language,compiler_ids>
 # https://cmake.org/cmake/help/latest/manual/cmake-generator-expressions.7.html#genex:COMPILE_LANG_AND_ID
